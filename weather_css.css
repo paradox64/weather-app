@@ -1,0 +1,111 @@
+
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box; 
+}
+
+
+body{
+    font-family: 'Arial Narrow', Arial;
+    font-style: italic;
+    background-image:url(house.jpg);
+    background-size: 1000px;
+    text-align: center;
+    background-size: cover;
+}
+
+#wrap_app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+
+
+body{
+    box-sizing: content-box;
+    border: black;
+    font-family: monospace;
+    color: rgba(55, 77, 56, 0.993)
+}
+
+#searchBox{
+    font-size: 40px;
+    display: flex;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    border-radius:0px 30px 0px 30px;
+    border-style: solid;
+    border-color: orange;
+    border-bottom-color: coral;
+    border-width: 1px;
+    border-bottom-width: 3px;
+    box-shadow: 10px 10px 9px;
+    opacity: 0.6;
+}
+#searchBox:hover{
+    background-color: rgb(204, 179, 38);
+    opacity: 100%;
+}
+
+main{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#tempid{
+    display: flex;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 700px;
+}
+
+#climaid{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 400px;  
+ 
+}
+#icon{
+    margin-left: 30px;
+}
+
+
+
+.icono{
+    display: flex;
+    margin-left: 400px;
+    margin-right: 800px;   
+    margin-top: 30px;
+    box-sizing: border-box;
+    background-color: #fdba00;;
+    border-radius: 50%;
+    border-style: dashed;
+    animation-name: animar;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+ 
+
+}
+#mmid{
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 400px;   
+}
+
+@keyframes animar {
+    0% { transform:translate(10px)}
+    50% { transform:translate(50px)}
+    100% { transform:translate(10px)}
+  }
+  
