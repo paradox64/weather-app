@@ -1,6 +1,5 @@
 # weather-app
 * simple weather app
-* api:
-(https://openweathermap.org/api)
+* [API](https://openweathermap.org/api)
 
  
